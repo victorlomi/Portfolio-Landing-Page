@@ -20,10 +20,14 @@
 
 .center-image {
     position: absolute;
-    top: 230px;
-    left: 45%;
+    top: 220px;
+    left: 43%;
 }
 
 .round-image {
     border-radius: 50%;
+}
+
+.profile-shadow {
+    box-shadow: 0 4px 4px #0000004f;
 }
