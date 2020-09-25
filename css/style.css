@@ -1,3 +1,4 @@
+/* Header Styling */
 .skewed {
     position: absolute;
     top: 0;
@@ -10,4 +11,19 @@
     z-index: 0;
     transform: skewY(-9deg);
     transform-origin: top left;
+}
+
+#profile-image {
+    width: 200px;
+    z-index: 1;
+}
+
+.center-image {
+    position: absolute;
+    top: 230px;
+    left: 45%;
+}
+
+.round-image {
+    border-radius: 50%;
 }
