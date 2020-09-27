@@ -1,4 +1,20 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
 /* Header Styling */
+.separator {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.315), rgba(0, 0, 0, 0.315)),  url(/images/header-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 41%;
+    width: 100%;
+}
+
 #profile-image {
     width: 100px;
 }
