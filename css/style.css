@@ -16,8 +16,19 @@ body, html {
 }
 
 .separator-text {
+    position: absolute;
+    top: 15%;
+    left: 5%;
     font-family: sans-serif;
     color: #ffffff;
+}
+
+.separator-title {
+    font-size: 50px;
+}
+
+.separator-subtitle {
+    font-size: 30px;
 }
 
 #profile-image {
