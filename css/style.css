@@ -4,7 +4,7 @@ body, html {
     margin: 0;
 }
 
-/* Header Styling */
+/* Separater */
 .separator {
     background-image: linear-gradient(rgba(0, 0, 0, 0.315), rgba(0, 0, 0, 0.315)),  url(/images/header-background.jpg);
     background-position: center;
@@ -16,21 +16,25 @@ body, html {
 }
 
 .separator-text {
-    position: absolute;
-    top: 15%;
-    left: 5%;
     font-family: sans-serif;
     color: #ffffff;
 }
 
 .separator-title {
+    position: absolute;
     font-size: 50px;
+    top: 15%;
+    left: 5%;
 }
 
 .separator-subtitle {
+    position: absolute;
     font-size: 30px;
+    top: 45%;
+    left: 5%;
 }
 
+/* Profile Image */
 #profile-image {
     width: 200px;
     
@@ -49,3 +53,5 @@ body, html {
 .profile-shadow {
     box-shadow: 0 4px 4px #0000004f;
 }
+
+/* About Me */
