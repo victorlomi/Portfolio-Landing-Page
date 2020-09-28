@@ -61,9 +61,16 @@ body, html {
     padding-left: 62px;
 }
 
-.section-title {
+.section-title, .small-section-title {
     color: #3E3D3D;
+}
+
+.section-title {
     font-size: 25px;
+}
+
+.small-section-title {
+    font-size: 19px;
 }
 
 .section-text {
