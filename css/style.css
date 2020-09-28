@@ -2,6 +2,7 @@ body, html {
     height: 100%;
     width: 100%;
     margin: 0;
+    font-family: sans-serif;
 }
 
 /* Separater */
@@ -56,13 +57,16 @@ body, html {
 
 /* About Me */
 .about-me {
-
+    padding-top: 50px;
+    padding-left: 62px;
 }
 
 .section-title {
-
+    color: #3E3D3D;
+    font-size: 25px;
 }
 
 .section-text {
-    
+    color: #959595;
+    line-height: 1.5;
 }
