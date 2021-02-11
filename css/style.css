@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+
 body, html {
     height: 100%;
     width: 100%;
     margin: 0;
-    font-family: sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 /* Separater */
@@ -58,6 +60,7 @@ body, html {
 /* About Me */
 .about-me {
     padding: 50px 270px 0 62px;
+    width: 85ch;
 }
 
 .section-title, .small-section-title {
@@ -65,7 +68,7 @@ body, html {
 }
 
 .section-title {
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .small-section-title {
@@ -77,16 +80,11 @@ body, html {
     line-height: 1.5;
 }
 
-.basketball-image {
-    width: 420px; 
-    height: 250px; 
-    float: right; 
-    border-radius: 5px;
-}
 
 /* Projects */
 .projects {
     padding: 10px 270px 50px 62px;
+    width: 85ch;
 }
 
 .project-section {
